@@ -2,4 +2,5 @@ flask
 uuid
 Flask-Authorize
 flask-sqlalchemy
+flask_login
 pandas
