@@ -20,6 +20,11 @@ python project/app.py
 
 # Api Guide
 
+## Hosting
+
+This app is hosted on server
+hence you can replace http://0.0.0.0:8080 with http://akshaygaikwad.pythonanywhere.com while making request
+
 ### Login
 
 curl -X POST http://0.0.0.0:8080/login -H 'content-type: application/json' -d '{"username":"admin","password":"admin"}'
