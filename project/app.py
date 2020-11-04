@@ -103,4 +103,4 @@ def update_composition(user,cid,eid):
 
 if __name__=='__main__':
     db.create_all()
-    app.run()
+    app.run(threaded=True, host='0.0.0.0', port=8080)
