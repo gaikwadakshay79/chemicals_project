@@ -1,4 +1,5 @@
 flask
 uuid
 Flask-Authorize
-flask-sqlalchemy   
+flask-sqlalchemy
+pandas
