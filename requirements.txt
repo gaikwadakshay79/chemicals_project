@@ -1,0 +1,4 @@
+flask
+uuid
+Flask-Authorize
+flask-sqlalchemy   
