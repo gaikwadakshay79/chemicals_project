@@ -24,6 +24,8 @@ python project/app.py
 
 curl -X POST http://0.0.0.0:8080/login -H 'content-type: application/json' -d '{"username":"admin","password":"admin"}'
 
+You will receive accessToken as response on successful authentication. This access_token should be used for further steps.I am using yajrtdqnxwlwoblbzfaupvtqiuzxjvgotjtyrwksrlsyztairxbbhymikyboqzbgawdrfxunbvifmiaa as accesstoken for now.Note that username is admin and password is admin, i have already created this user in db.
+
 ### Get All Chemical Elements
 
 curl -X GET 'http://0.0.0.0:8080/chemicals/get?access_token=yajrtdqnxwlwoblbzfaupvtqiuzxjvgotjtyrwksrlsyztairxbbhymikyboqzbgawdrfxunbvifmiaa'
